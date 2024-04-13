@@ -1,4 +1,10 @@
-## Project Setup
+## Try it
+
+## 1. Prepare a joy id in TestNet
+
+Create one from here: [https://testnet.joy.dev](https://testnet.joyid.dev/)
+
+## 2. Setup Project
 
 ```sh
 npm install
@@ -10,8 +16,22 @@ npm install
 npm run dev
 ```
 
-### Compile and Minify for Production
+## 3. Have a try
 
-```sh
-npm run build
-```
+Click the `Connect JoyID` button:
+
+![init](./screenshots/init.png)
+
+Click the `Login with Passkey`:
+
+![wallect](./screenshots/wallet.png)
+
+Confirm it:
+
+![confirm](./screenshots/confirm.png)
+
+Check the **EVM** ID:
+
+![joyid](./screenshots/joyid.png)
+
+Click `Disconnect` button and everything back to the start, have fun!
